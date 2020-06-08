@@ -3,10 +3,12 @@ import {StyleSheet, View} from 'react-native';
 import SidebarView from './SidebarView';
 
 const App = () => {
-  return <View style={styles.container}>
-    <SidebarView style={styles.sidebar} />
-    <View style={styles.main} />
-  </View>
+  return (
+    <View style={styles.container}>
+      <SidebarView style={styles.sidebar} />
+      <View style={styles.main} />
+    </View>
+  );
 };
 
 const styles = StyleSheet.create({
